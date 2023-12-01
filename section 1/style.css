@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+   }
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#title{
+    font-size: 45px;
+    line-height: 53px;
+    color: rgba(55, 70, 57, 1);
+
+
+}
+.title__detail{
+    max-width: 519px;
+    font-size: 19px;
+    margin-top: 20px;
+    color:rgba(63, 81, 75, 1);
+
+}
+.container{
+    padding: 70px 194px 30px 194px;
+}
+
+.card__container{
+    margin-top: 23px;
+    display: flex;
+    gap: 18px;
+}
+.card{
+
+}
+.card__information{
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.card__title{
+    line-height: 25px;
+    font-size: 20px;
+    margin-top: 10px;
+    color:rgba(65, 79, 66, 1);
+}
+.card__description{
+    font-size: 17px;
+    line-height: 24px;
+    max-width: 308px;
+    color:rgba(63, 81, 75, 1);
+}
+.card__default__price{
+    font-size: 13px;
+    line-height: 18px;
+    text-decoration: line-through;
+    color: rgba(114, 119, 108, 1);
+
+}
+.card__discount__price{
+    font-size: 18px;
+    line-height: 23px;
+    margin-left: 5px;
+    color:rgba(63, 81, 75, 1);
+}
+.card__timeline{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.timeline{
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+.timeline__time{
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(114, 119, 108, 1);
+}
+.timeline__title{
+    font-size: 14px;
+    line-height: 24px;
+    color:rgba(78, 92, 88, 1)
+}
+.timeline__title__secondary{
+    font-size: 17px;
+    line-height: 24px;
+    color:rgba(78, 92, 88, 1)
+}
+.line{
+    height: 1px;
+    background-color: rgba(236, 237, 236, 1);
+}
